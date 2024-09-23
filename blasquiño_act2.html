@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Webpage</title>
+
+    <style>
+
+.main {
+  height:3400px; /*1480*/
+  width: 100%; /*1200*/
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 7px 15px 5px #b9b6b6;
+  margin: 20px auto;
+}
+
+.paragraph {
+  padding: 10px;
+  height:85%;
+  /*background-color:#d5e2fd;*/
+  background-image: linear-gradient(to right, #142952, #d5e2fd);
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.div1 {
+  float: left;
+  width: 65%;
+  height: 55vh;
+  background-color: linear-gradient(to right, #142952, #d5e2fd);
+}
+
+.hi {
+    font-size: 400%;
+    text-align: left;
+    width: 100%;
+    padding-left: 60px;
+    padding-top: 20px;
+    color:#142952
+}
+
+.name {
+    font-size: 300%;
+    text-align:left;
+    width: 100%;
+    padding-left: 60px;
+    background-color: #142952;
+    color: white;
+
+}
+
+.name1 {
+  font-size: 200%;
+  text-align:left;
+  width: 95%;
+  padding-left: 60px;
+  background-color: #142952;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.divpic{
+    width: 30%;
+    height: 55vh;
+    display: inline-flex;
+    background-image: linear-gradient(to right, #142952, #d5e2fd);
+    justify-content: center;
+    align-items: center;
+    float: center;
+    border-radius: 50%;
+    margin-bottom: 1px;
+    margin-top: 70px;
+  }
+
+.pic{
+    width: 258px;
+    border-radius: 50%;  
+    float:left;
+    display:flex;
+    top: 50%;
+    left: 50%;
+  }
+
+
+
+.par {
+  font-size: 130%;
+  text-align: center;
+  width: 80%;
+  padding-left: 5%;
+  padding-top: 22px;
+  align-items: center;
+  justify-content: center;
+  text-justify: auto;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+ .habits span {
+  display: inline;  
+  background-color: #142952; 
+  color: white; 
+  padding: 10px;
+  font-family: 'Trebuchet MS', sans-serif; 
+}
+
+.habits {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 200%;
+}
+
+.parbox {
+  width: 92%;
+  height: 65vh;
+  display: inline-flex;
+  background-color:#ffffff;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 52px;
+  border: 5px solid #142952;
+
+  
+}
+
+/*.div2 {
+    padding: 10px;
+    height:65vh;
+    width: 100%;
+    background-color:#154bbf;
+    justify-content: center;
+}*/
+
+li {
+  padding-left: 3%;
+  font-size: 150%;
+  color: #000000;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.section {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 300%;
+}
+
+
+ul {
+  padding-left: 5%;
+}
+
+.div2 {
+  float: right;
+  width: 65%;
+  height: 115vh;
+  background-color:#ffffff;
+  margin-top: 90px;
+  margin-right: 27px;
+  border-radius: 25px;
+  border: 5px solid #142952;
+
+}
+
+.div3 {
+  float: left;
+  width: 45%;
+  height: 110vh;
+  background-color:#ffffff;
+  margin-top: 90px;
+  margin-left: 100px;
+  border-radius: 25px;
+  border: 5px solid #142952;
+
+}
+
+.div4 {
+  float: center;
+  width: 90%;
+  height: 40vh;
+  background-color:#ffffff;
+  margin-top: 125px;
+  margin-left: 52px;
+  border-radius: 15px;
+}
+
+.div5 {
+  float: center;
+  width: 90%;
+  height: 99vh;
+  background-color:#ffffff;
+  margin-top: 90px;
+  border-radius: 15px;
+  margin-left: 52px;
+}
+
+
+.blue {
+  background-color:#142952;
+  color: white;
+}
+
+.div3 ul {
+  padding-left: 9%;
+}
+
+
+.divpic2{
+  width: 25%;
+  height: 47vh;
+  display: inline-flex;
+  background-color: #d5e2fd;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 107px;
+  margin-left: 2%;
+
+}
+
+.divpic3{
+    width: 25%;
+    height: 47vh;
+  display: inline-flex;
+  background-color: #d5e2fd;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 2%;
+  margin-top: 55px;
+}
+
+.divpic4{
+    width: 25%;
+    height: 47vh;
+  display: inline-flex;
+  background-color:#142952;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 107px;
+  margin-left: 12%;
+}
+
+.divpic5{
+    width: 25%;
+    height: 47vh;
+  display: inline-flex;
+  background-color:#142952;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 12%;
+  margin-top: 40px;
+}
+
+a {
+  color: #142952;
+}
+.pic2{
+  width: 220px;
+  border-radius: 48%;  
+  float:center;
+  display:flex;
+  top: 50%;
+  left: 50%;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-left: 20px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+   
+    <div class="div1">
+        <h1 class="hi">HI !!!</h1>
+    
+        <h1 class="name"><span>I am EDJAY G. BLASQUIÑO</span></h1>
+    </div>
+
+    <div class="divpic">
+       <img src="MyFormalPic.png" class="pic">
+    </div>
+
+    <div class="paragraph">
+        <h1 class="name1">PERSONAL BACKGROUND</h1>
+        <div class="parbox"><p class="par">Im a university student, currently in 3rd year college taking up Bachelor of Science <br>in Information Technology 
+            at Sorsogon State University - Bulan Campus. I identify myself as a cisgender gay man with a brave heart to fight for our rights and
+             inclusivity. I hail all the way from the beautiful place of Barangay San Roque, Municipality of Bulusan - situated right at the foot 
+             of the stunning Mt. Bulusan - blessed with an abundance of water and a sanctuary of touristy natural wonders. 
+             I'm in my 20 years of living life full of magnificent dreams and unfaltering hope, continuosly striving for personal growth<br> and the 
+             fulfillment of my heart's desires.</p>
+
+        </div>
+<!--ACHIEVEMENTS-->
+
+    <div class="div2">
+
+        <section>
+        <h1 class="section" style="display: inline-grid; padding-top: 60px; padding-left: 60px;"><span class="blue">MY LITTLE ACHIEVEMENTS</span></h1>
+        
+        <ul>
+            <li>3rd Place - District Level <b>HEKASI QUIZ BEE</b> in 2015</li>
+            <li>7th Place - <b>KASANGGAYAHAN HEKASI QUIZ BEE in 2015</b></li>
+            <li>3rd Place - <b>ESSAY WRITING CONTEST</b> (Cluster Elimination) in 2019</li>
+            <li>1st Place - <b>ESSAY WRITING (English Category)</b> Nutrition Month 2019 </li>
+            <li>2nd Place - <b>SCI-TECH WRITING</b> (District School's Press Conference 2019)</li>
+            <li>1st Place - <b>CYBERQUIZ BOWL</b>  COMPETITION in 2023</li>
+            <li>2nd Place - <b>GRAPHIC DESIGN</b>  COMPETITION in 2024</li>
+            <li>1st Place - <b>CICT LOGO</b>  COMPETITION in 2024</li>
+            <li>1st Place - <b>TAGISAN NG TALINO</b> (Buwan ng Wika 2024) </li>
+        </ul>
+    </section>
+    </div>
+
+        <div class="divpic2">
+            <img src="pic2.png" class="pic2">
+         </div>
+
+         <div class="divpic3">
+            <img src="pic3.png" class="pic2">
+         </div>
+
+
+
+         <!--GOALS-->
+
+    <div class="div3">
+
+        <section>
+        <h1 class="section" style="display: inline-grid; padding-top: 60px; padding-left: 60px;"><span class="blue">MY PERSONAL <br> GOALS</span></h1>
+        
+        <ul>
+            <li>Become extremely rich</li>
+            <li>Travel the whole world</li>
+            <li>Develop my journalism skills</li>
+            <li>Finish college with flying colors</li>
+            <li>Establish my own farming business</li>
+            <li>Enter freelancing by 2025</li>
+            <li>Climb Mt. Bulusan, Mayon Volcano, and Mt. Pinatubo</li>
+            <li>Gain weight and muscles</li>
+            <li>Learn Japanese</li>
+        </ul>
+    </section>
+    </div>
+
+        <div class="divpic4">
+            <img src="pic4.png" class="pic2">
+         </div>
+
+         <div class="divpic5">
+            <img src="pic5.png" class="pic2">
+         </div>
+
+         <!--HABITS-->
+
+         <div class="div4">
+
+            <section>
+            <h1 class="habits"><span>MY ACADEMIC HABITS</span></h1>
+            
+            <ul class="lastul1">
+                <li class="lastli1">LEARNING UI/UX DESIGN</li>
+                <li class="lastli1">MASTERING MS EXCEL for Data Entry Management and Reporting & Analysis </li>
+                <li>LEARNING HTML & CSS</li>
+                <li>STUDYING SYSTEMS INTEGRATION & ARCHITECTURE</li>
+            </ul>
+            </section>
+        </div>
+
+
+        <!--FAV SITES-->
+         
+        <div class="div5">
+
+            <section>
+            <h1 class="habits"><span>MY FAVORITE LEARNING SITES</span></h1>
+            <h2>For UI/UX Design</h2>
+            <ul>
+                <li><a href="www.youtube.com/@DesignWithArash">Design With Arash</a></li>
+                <li><a href="www.youtube.com/@DesignCours">DesignCourse</a></li>
+                <li><a href="www.youtube.com/@Intellipaat">Intellipaat</a></li>
+                
+            </ul>
+
+            <h2>For MS Excel</h2>
+            <ul>
+                <li><a href="www.youtube.com/@trumpexcel">TrumpExcel</a></li>
+                <li><a href="www.youtube.com/@LearnitTraining">LearnitTraining</a></li>
+                <li><a href="https://www.youtube.com/xcelhub">Xcel Hub Training Services</a></li>
+                
+            </ul>
+            </section>
+
+            <h2>For HTML & CSS</h2>
+            <ul>
+                <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                
+            </ul>
+            </section>
+        </div>
+
+        
+         
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        </div>
+</body>
+
+</html>
